@@ -5,7 +5,7 @@ stages:
 build-image-job:
   stage: build
   script:
-    - echo "Building docker image"
+    - echo "Building container image"
 
 send-notification-job:
   stage: notify
