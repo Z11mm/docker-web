@@ -10,4 +10,4 @@ build-image-job:
 send-notification-job:
   stage: notify
   script:
-    - echo "Build complete"
+    - echo "Build image complete"
