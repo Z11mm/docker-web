@@ -1,0 +1,13 @@
+stages:
+  - build
+  - notify
+
+build-image-job:
+  stage: build
+  script:
+    - echo "Building docker image"
+
+send-notification-job:
+  stage: notify
+  script:
+    - echo "Build complete"
